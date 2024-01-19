@@ -1,0 +1,42 @@
+.custom {
+  /* border: 3px dotted red; */
+  height: 50px;
+  border-radius: 22px;
+}
+
+.red {
+  /* border: 1px solid red; */
+  padding: 0%;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.input-text:focus {
+  box-shadow: 0px 0px 0px;
+  border-color: #767370;
+  color: #efece9;
+  outline: 0px;
+  background-color: #30415339;
+}
+
+.search-input {
+  border: 1px solid #ff8000;
+}
+
+.search-bar {
+  width: 378px;
+  height: max-content;
+  border-radius: 50px;
+}
+
+input[type="text"] {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #767370;
+}
+
+#icon {
+  width: 100px;
+}
