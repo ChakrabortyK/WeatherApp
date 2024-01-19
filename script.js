@@ -1,7 +1,7 @@
 async function useApi(lat, long) {
   const url =
     // "./weatherResponse.json";
-    `http://api.weatherapi.com/v1/current.json?key=8cf7537ff8834221846143322241401&q=${lat},${long}`;
+    `https://api.weatherapi.com/v1/current.json?key=8cf7537ff8834221846143322241401&q=${lat},${long}`;
 
   // console.log(url);
   try {
